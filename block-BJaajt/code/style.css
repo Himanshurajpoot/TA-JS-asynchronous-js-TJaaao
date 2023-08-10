@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* common classes */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blanchedalmond;
+  margin-bottom: 9rem;
+}
+.container {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* custom styling */
+.header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1rem 0rem;
+}
+
+input {
+  margin-top: 2.5rem;
+  padding: 0.5rem 2rem;
+}
+
+.user-img {
+  margin-top: 2rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name-info {
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.user-name-info a {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.follow-info {
+  margin-top: 2rem;
+}
+
+.follow-info-col {
+  margin-bottom: 2rem;
+}
+
+.follow-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 1rem;
+  object-fit: cover;
+}
+
+.followers,
+.following {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+hr {
+  margin: 2.5rem 0rem;
+  border: 1.5px solid rgb(160, 156, 156);
+}
+
+/* cat */
+
+.getCat {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.new-cat {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  margin: 2rem 0rem;
+}
+
+.btn {
+  background-color: rgb(165, 71, 13);
+  font-size: 1.3rem;
+  padding: 0.2rem 1rem;
+
+  border-radius: 4px;
+}
