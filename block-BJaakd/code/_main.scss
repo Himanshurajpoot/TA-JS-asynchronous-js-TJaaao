@@ -1,0 +1,18 @@
+header {
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 2px 4px 5px rgba($color: rgb(211, 74, 74), $alpha: 0.5);
+  }
+  input {
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+    border: none;
+    outline: none;
+    box-shadow: 4px 10px 20px rgba($color: black, $alpha: 0.2);
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+  }
+}

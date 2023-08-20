@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font: 16px;
+}
+body {
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.padding {
+  padding: 2rem 0;
+}
+
+.grid {
+  display: grid;
+  text-align: center;
+}
+
+.grid-template-column-3 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-gap {
+  gap: 0.5rem;
+}
