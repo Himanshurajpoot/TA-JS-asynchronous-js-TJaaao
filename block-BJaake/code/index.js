@@ -1,6 +1,7 @@
 
 
 // first-way
+
 const article = document.querySelector('.news-article');
 const select = document.querySelector('.select-bar');
 const optionArr = [];
